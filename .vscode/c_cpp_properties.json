@@ -1,0 +1,65 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/dingus/Documents/stingy-mans-malenki-nano/include",
+                "/home/dingus/Documents/stingy-mans-malenki-nano/src",
+                "/home/dingus/Documents/stingy-mans-malenki-nano/.pio/libdeps/tx/U8g2/src",
+                "/home/dingus/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/dingus/Documents/stingy-mans-malenki-nano/.pio/libdeps/tx/RF24",
+                "/home/dingus/Documents/stingy-mans-malenki-nano/.pio/libdeps/tx/RF24/utility",
+                "/home/dingus/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/dingus/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/dingus/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                "/home/dingus/Documents/stingy-mans-malenki-nano/.pio/libdeps/tx/Unity/src",
+                "/home/dingus/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/dingus/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/dingus/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/dingus/Documents/stingy-mans-malenki-nano/include",
+                    "/home/dingus/Documents/stingy-mans-malenki-nano/src",
+                    "/home/dingus/Documents/stingy-mans-malenki-nano/.pio/libdeps/tx/U8g2/src",
+                    "/home/dingus/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/dingus/Documents/stingy-mans-malenki-nano/.pio/libdeps/tx/RF24",
+                    "/home/dingus/Documents/stingy-mans-malenki-nano/.pio/libdeps/tx/RF24/utility",
+                    "/home/dingus/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/dingus/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/dingus/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                    "/home/dingus/Documents/stingy-mans-malenki-nano/.pio/libdeps/tx/Unity/src",
+                    "/home/dingus/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/dingus/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/dingus/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60200",
+                "ARDUINO_AVR_PRO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "UNITY_INCLUDE_CONFIG_H",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/home/dingus/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
